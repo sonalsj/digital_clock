@@ -11,17 +11,17 @@ const clock = setInterval(function time()  {
     let sec = dateToday.getSeconds();
 
     if(hr<10){
-        hr = '0'+hr;
+        hr = '0'+ hr;
     }
 
     if(min<10){
-        hr = '0'+min;
+        hr = '0'+ min;
     }
 
-    if(hr<10){
-        sec = '0'+sec;
+    if(sec<10){
+        sec = '0'+ sec;
     }
-
+    
     hour.textContent = hr;
     minute.textContent = min;
     seconds.textContent = sec;
